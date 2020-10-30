@@ -1228,6 +1228,19 @@ input[type='checkbox'] {
 	margin: auto;
 }
 
+.configinfo {
+	padding-top: 150px;
+	margin: auto;
+	text-align: center;
+}
+
+.tempgridsize {
+	margin: auto;
+	width: 1280px;
+	height: 1280px;
+	display: block;
+}
+
 .basic-1 {
 	padding-top: 6.375rem;
 	padding-bottom: 6.875rem;
