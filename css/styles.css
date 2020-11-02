@@ -78,6 +78,20 @@
   animation: bounce 2s infinite;
 }
 
+.bikebike {
+	width: 100vw;
+}
+
+#bouncehide {
+	display: ;
+}
+
+@font-face { font-family: PFDinDisplayProThin; src: url('../fonts/PFDinDisplayPro-Thin.otf'); } 
+@font-face { font-family: PFDinDisplayProBold; src: url('../fonts/PFDinDisplayPro-Bold.otf'); } 
+@font-face { font-family: PFDinDisplayProReg; src: url('../fonts/PFDinDisplayPro-Reg.otf'); } 
+@font-face { font-family: PFDinDisplayProBoldItal; src: url('../fonts/PFDinDisplayPro-BoldItal.otf'); }
+@font-face { font-family: PFDinDisplayProThinItal; src: url('../fonts/PFDinDisplayPro-ThinItal.otf'); } 
+
 /******************************/
 /*     01. General Styles     */
 /******************************/
@@ -92,17 +106,20 @@ html {
 
 body, p {
 	color: #f1f1f8; 
-	font: 400 0.875rem/1.375rem "Open Sans", sans-serif;
+	font-family: PFDinDisplayProReg;
+	font-size: 15px;
 }
 
 .p-large {
 	color: #f1f1f8;
-	font: 400 1.25rem/1.5rem "Open Sans", sans-serif;
+	font-family: PFDinDisplayProReg;
+	font-size: 20px;
 }
 
 .p-small {
 	color: #f1f1f8;
-	font: 400 0.75rem/1.25rem "Open Sans", sans-serif;
+	font-family: PFDinDisplayProReg;
+	font-size: 15px;
 }
 
 .p-heading {
@@ -119,23 +136,27 @@ body, p {
 }
 
 h1 {
+	font-family: PFDinDisplayProBoldItal;
 	color: #f1f1f8;
-	font: 700 2.5rem/2.875rem "Montserrat", sans-serif;
+	font-size: 70px;
 }
 
 h2 {
+	font-family: PFDinDisplayProBoldItal;
 	color: #f1f1f8;
-	font: 700 2.25rem/2.75rem "Montserrat", sans-serif;
+	font-size: 50px;
 }
 
 h3 {
+	font-family: PFDinDisplayProBoldItal;
 	color: #f1f1f8;
-	font: 700 1.75rem/2.125rem "Montserrat", sans-serif;
+	font-size: 40px;
 }
 
 h4 {
+	font-family: PFDinDisplayProBoldItal;
 	color: #f1f1f8;
-	font: 700 1.375rem/1.75rem "Montserrat", sans-serif;
+	font-size: 25px;
 }
 
 h5 {
@@ -681,7 +702,8 @@ input[type='checkbox'] {
 .navbar-custom {
 	background-color: #4633af;
 	box-shadow: 0 0.0625rem 0.375rem 0 rgba(0, 0, 0, 0.1);
-	font: 700 1.15rem/2rem "Montserrat", sans-serif;
+	font-family: PFDinDisplayProBoldItal;
+	font-size: 20px;
 	transition: all 0.2s;
 }
 
@@ -1415,7 +1437,7 @@ input[type='checkbox'] {
 	margin: 2.5rem auto;
 	padding: 3rem 1rem;
 	border-radius: 0.25rem;
-	background-color: rgba(0, 0, 0, 0.5);
+	background-color: rgba(0, 0, 0, 0.7);
 	text-align: left;
 }
 
@@ -1652,8 +1674,8 @@ input[type='checkbox'] {
 }
 
 .footer .list-unstyled .media-body {
-	margin-left: 0.625rem;
-}
+/*	margin-left: 0.625rem;
+*/}
 
 .footer .fa-stack {
 	margin-bottom: 0.75rem;
@@ -1807,7 +1829,9 @@ a:hover.back-to-top {
 	}
 
 	h1 {
-		font: 700 4.25rem/4rem "Montserrat", sans-serif;
+	font-family: PFDinDisplayProBoldItal;
+	color: #f1f1f8;
+	font-size: 70px;
 	}
 	/* end of general styles */
 
