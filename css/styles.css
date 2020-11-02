@@ -700,8 +700,8 @@ input[type='checkbox'] {
 /*     03. Navigation     */
 /**************************/
 .navbar-custom {
-	background-color: #4633af;
-	box-shadow: 0 0.0625rem 0.375rem 0 rgba(0, 0, 0, 0.1);
+	background: transparent;
+	box-shadow: none;
 	font-family: PFDinDisplayProBoldItal;
 	font-size: 20px;
 	transition: all 0.2s;
