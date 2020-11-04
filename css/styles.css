@@ -1025,7 +1025,7 @@ input[type='checkbox'] {
 	display: inline-block;
 	width: 3.5rem;
 	height: 3.5rem;
-	background-color: red;
+	background-color: black;
 	border-radius: 20px;
 	text-align: center;
 	vertical-align: top;
@@ -1039,7 +1039,7 @@ input[type='checkbox'] {
 }
 
 .card-icon2 i {
-	color: #000000;
+	color: #f0e400;
 }
 
 .tabs #tab-1 .card.left-pane .text-wrapper {
