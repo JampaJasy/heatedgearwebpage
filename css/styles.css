@@ -1610,6 +1610,14 @@ input[type='checkbox'] {
 	border-bottom-style:ridge;*/
 }
 
+.basic-4 i {
+	color: black;
+}
+
+.basic-4 a {
+	color: black;
+}
+
 .basic-4 .text-container {
 	margin-bottom: 3.5rem;
 	text-align: center;
