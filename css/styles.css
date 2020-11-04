@@ -86,6 +86,10 @@
 	display: ;
 }
 
+.homegear {
+	color: #f0e400;
+}
+
 @font-face { font-family: PFDinDisplayProThin; src: url('../fonts/PFDinDisplayPro-Thin.otf'); } 
 @font-face { font-family: PFDinDisplayProBold; src: url('../fonts/PFDinDisplayPro-Bold.otf'); } 
 @font-face { font-family: PFDinDisplayProReg; src: url('../fonts/PFDinDisplayPro-Reg.otf'); } 
@@ -198,9 +202,9 @@ a.white {
 .btn-solid-reg {
 	display: inline-block;
 	padding: 1.1875rem 2.125rem 1.1875rem 2.125rem;
-	border: 0.125rem solid #f0e400;
-	background-color: #f0e400;
-	color: #fff;
+	border: 0.125rem solid #000000;
+	background-color: #000000;
+	color: #f0e400;
 	font: 700 0.75rem/0 "Montserrat", sans-serif;
 	text-decoration: none;
 	transition: all 0.2s;
@@ -1012,6 +1016,7 @@ input[type='checkbox'] {
 	width: 3.5rem;
 	height: 3.5rem;
 	background-color: #f0e400;
+	border-radius: 20px;
 	text-align: center;
 	vertical-align: top;
 }
@@ -1021,15 +1026,20 @@ input[type='checkbox'] {
 	width: 3.5rem;
 	height: 3.5rem;
 	background-color: red;
+	border-radius: 20px;
 	text-align: center;
 	vertical-align: top;
 }
 
 .tabs .card .card-icon .fas,
 .tabs .card .card-icon .far {
-	color: #fff;
+	color: #000000;
 	font-size: 1.75rem;
 	line-height: 3.5rem;
+}
+
+.card-icon2 i {
+	color: #000000;
 }
 
 .tabs #tab-1 .card.left-pane .text-wrapper {
@@ -1970,7 +1980,7 @@ a:hover.back-to-top {
 
 	.card-icon2 {
 		font-size: 1.25rem;
-		line-height: 2.5rem;
+		line-height: 2.76rem;
 	}
 
 	.tabs #tab-1 .card.left-pane .text-wrapper {
@@ -2369,6 +2379,15 @@ a:hover.back-to-top {
 	/* Details 1 */
 	.basic-2 img {
 		margin-bottom: 0;
+		margin-left: 100px;
+	}
+
+	.basic-3 img {
+		margin-left: -100px;
+	}
+
+	.basic-5 img {
+		margin-left: 20px;
 	}
 
 	.basic-2 .text-container {
@@ -2668,6 +2687,10 @@ a:hover.back-to-top {
 		margin-top: 4.5rem;
 		margin-left: 4rem;
 		margin-right: 1.5rem;
+		/*border-style: ridge;
+		border-color: black;
+		border-width: 0.5px;
+		padding: 30px;*/
 	}
 	/* end of details 1 */
 	
