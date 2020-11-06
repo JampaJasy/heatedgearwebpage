@@ -90,6 +90,10 @@
 	color: #f0e400;
 }
 
+#js-rotating {
+	color: #f0e400;
+}
+
 @font-face { font-family: PFDinDisplayProThin; src: url('../fonts/PFDinDisplayPro-Thin.otf'); } 
 @font-face { font-family: PFDinDisplayProBold; src: url('../fonts/PFDinDisplayPro-Bold.otf'); } 
 @font-face { font-family: PFDinDisplayProReg; src: url('../fonts/PFDinDisplayPro-Reg.otf'); } 
@@ -770,7 +774,7 @@ input[type='checkbox'] {
 	margin-top: 0;
 	border: none;
 	border-radius: 0.25rem;
-	background-color: #4633af;
+	background-color: #f0e400;
 }
 
 .navbar-custom .dropdown-item {
@@ -779,15 +783,15 @@ input[type='checkbox'] {
 }
 
 .navbar-custom .dropdown-item:hover {
-	background-color: #4633af;
+	background-color: #f0e400;
 }
 
 .navbar-custom .dropdown-item .item-text {
-	font: 700 0.75rem/1.5rem "Montserrat", sans-serif;
+	
 }
 
 .navbar-custom .dropdown-item:hover .item-text {
-	color: #00c9db;
+	color: #000000;
 }
 
 .navbar-custom .dropdown-items-divide-hr {
