@@ -1877,6 +1877,36 @@ a:hover.back-to-top {
 /*     20. Media Queries     */
 /*****************************/	
 /* Min-width width 768px */
+
+@media (max-width: 400px) {
+
+	.tempgridsize {
+		margin: auto;
+		width: 400px;
+		height: 400px;
+		display: block;
+	}
+
+	#svgtopleft {
+		display: none;
+	}
+
+	.card-icon2 i{
+		font-size: 1.75rem;
+		line-height: 3.5rem;
+	}
+
+	.navbar-custom .nav-item .nav-link:hover,
+	.navbar-custom .nav-item .nav-link.active {
+		color: #f0e400;
+	}
+
+	.navbar-custom.top-nav-collapse .nav-item .nav-link:hover,
+	.navbar-custom.top-nav-collapse .nav-item .nav-link.active {
+		color: #f0e400;
+	}
+}
+
 @media (min-width: 768px) {
 	
 	/* General Styles */
@@ -1885,6 +1915,7 @@ a:hover.back-to-top {
 		margin-right: auto;
 		margin-left: auto;
 	}
+
 
 	h1 {
 	font-family: PFDinDisplayProBoldItal;
@@ -2204,7 +2235,7 @@ a:hover.back-to-top {
 	}
 	
 	.navbar-custom .fa-stack-2x {
-		color: #00c9db;
+		color: #f0e400;
 		transition: all 0.2s ease;
 	}
 	
@@ -2218,7 +2249,7 @@ a:hover.back-to-top {
 	}
 
 	.navbar-custom .fa-stack:hover .fa-stack-1x {
-		color: #00c9db;
+		color: #f0e400;
 	}
 	/* end of navigation */
 
