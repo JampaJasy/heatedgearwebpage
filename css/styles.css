@@ -1300,6 +1300,14 @@ input[type='checkbox'] {
 	margin: auto;
 }
 
+.thinwhiteline2 {
+	width: 50vw;
+	border-bottom-style: ridge;
+	border-width: 2px;
+	margin: auto;
+	padding-top: 50px;
+}
+
 .configinfo {
 	padding-top: 150px;
 	margin: auto;
@@ -1309,7 +1317,7 @@ input[type='checkbox'] {
 .tempgridsize {
 	margin: auto;
 	width: 1280px;
-	height: 1280px;
+	height: auto;
 	display: block;
 }
 
@@ -1871,14 +1879,14 @@ a:hover.back-to-top {
 /*****************************/
 /*     20. Media Queries     */
 /*****************************/	
-/* Min-width width 768px */
+/* Min-width width 400px */
 
 @media (max-width: 400px) {
 
 	.tempgridsize {
 		margin: auto;
 		width: 400px;
-		height: 400px;
+		height: auto;
 		display: block;
 	}
 
