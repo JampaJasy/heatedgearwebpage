@@ -780,7 +780,7 @@ input[type='checkbox'] {
 }
 
 .navbar-custom .dropdown-item {
-	color: #fff;
+	color: #000000;
 	text-decoration: none;
 }
 
@@ -793,7 +793,7 @@ input[type='checkbox'] {
 }
 
 .navbar-custom .dropdown-item:hover .item-text {
-	color: #000000;
+	color: #fff;
 }
 
 .navbar-custom .dropdown-items-divide-hr {
