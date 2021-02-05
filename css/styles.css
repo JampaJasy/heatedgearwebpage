@@ -725,7 +725,9 @@ input[type='checkbox'] {
 }
 
 .topleft {
-	width: 65vw;
+	width: 45vw;
+	margin-left: -20px;
+	margin-top: -5px;
 }
 
 .navbar-custom .navbar-brand.logo-text {
