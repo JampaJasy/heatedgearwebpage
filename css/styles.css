@@ -97,7 +97,7 @@
 
 
 @font-face { font-family: PFDinDisplayProThin; src: url('../fonts/PFDinDisplayPro-Thin.otf'); } 
-@font-face { font-family: PFDinDisplayProBold; src: url('../fonts/PFDinDisplayPro-Bold.otf'); } 
+@font-face { font-family: PFDinDisplayProBold; src: url('https://jampajasy.github.io/heatedgearwebpage/fonts/PFDinDisplayPro-Bold.otf'); } 
 @font-face { font-family: PFDinDisplayProReg; src: url('https://jampajasy.github.io/heatedgearwebpage/fonts/PFDinDisplayPro-Reg.otf'); } 
 @font-face { font-family: PFDinDisplayProBoldItal; src: url('https://jampajasy.github.io/heatedgearwebpage/fonts/PFDinDisplayPro-BoldItal.otf'); }
 @font-face { font-family: PFDinDisplayProThinItal; src: url('../fonts/PFDinDisplayPro-ThinItal.otf'); } 
@@ -129,7 +129,7 @@ body, p {
 .p-small {
 	color: #f1f1f8;
 	font-family: PFDinDisplayProReg;
-	font-size: 15px;
+	font-size: 12px;
 }
 
 .p-heading {
@@ -164,9 +164,10 @@ h3 {
 }
 
 h4 {
-	font-family: PFDinDisplayProBoldItal;
+	font-family: PFDinDisplayProBold;
 	color: #f1f1f8;
-	font-size: 25px;
+	font-size: 18px;
+	text-transform: capitalize;
 }
 
 h5 {
@@ -190,7 +191,7 @@ a:hover {
 }
 
 a.turquoise {
-	color: #f0e400;
+	color: #fff;
 }
 
 a.white {
@@ -726,7 +727,7 @@ input[type='checkbox'] {
 
 .topleft {
 	width: 45vw;
-	margin-left: -20px;
+	margin-left: -25px;
 	margin-top: -5px;
 }
 
@@ -1719,7 +1720,8 @@ input[type='checkbox'] {
 /**********************/
 .footer {
 	padding-top: 5rem;
-	background-color: #000000;
+	background-color: #1e1e1e;
+	padding-bottom: 3rem;
 }
 
 .footer .footer-col {
