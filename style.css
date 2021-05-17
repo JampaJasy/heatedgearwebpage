@@ -1,0 +1,373 @@
+@font-face { font-family: PFDinDisplayProThin; src: url('https://jampajasy.github.io/heatedgearwebpage/fonts/PFDinDisplayPro-Thin.otf'); } 
+@font-face { font-family: PFDinDisplayProBold; src: url('https://jampajasy.github.io/heatedgearwebpage/fonts/PFDinDisplayPro-Bold.otf'); } 
+@font-face { font-family: PFDinDisplayProReg; src: url('https://jampajasy.github.io/heatedgearwebpage/fonts/PFDinDisplayPro-Reg.otf'); } 
+@font-face { font-family: PFDinDisplayProBoldItal; src: url('https://jampajasy.github.io/heatedgearwebpage/fonts/PFDinDisplayPro-BoldItal.otf'); }
+@font-face { font-family: PFDinDisplayProThinItal; src: url('https://jampajasy.github.io/heatedgearwebpage/fonts/PFDinDisplayPro-ThinItal.otf'); }
+@font-face { font-family: PFDinDisplayProMedium; src: url('https://jampajasy.github.io/heatedgearwebpage/fonts/PFDinDisplayPro-Med.otf'); } 
+
+html, body {
+  overflow: hidden;
+}
+
+body {
+  background-color: black;
+}
+
+section {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+span {
+  font-family: "PFDinDisplayProMedium";
+}
+
+a {
+  font-family: "PFDinDisplayProMedium";
+}
+
+h2 {
+  font-family: "PFDinDisplayProThinItal";
+  font-size: 22px;
+}
+
+p {
+  font-family: "PFDinDisplayProThinItal";
+  font-size: 18px;
+  line-height: normal;
+  color: white;
+}
+
+.text {
+  font-family: "PFDinDisplayProBoldItal";
+  color: white;
+  font-size: 180px;
+  text-align: center;
+  letter-spacing: 0.01px;
+  z-index: 999;
+  margin-bottom: 200px;
+}
+
+.text2 {
+  font-family: "PFDinDisplayProBoldItal";
+  color: white;
+  font-size: 100px;
+  text-align: right;
+  letter-spacing: 0.01px;
+  z-index: 10;
+  margin-right: 300px;
+  position: relative;
+}
+
+.text3 {
+  font-family: "PFDinDisplayProBoldItal";
+  color: white;
+  font-size: 100px;
+  text-align: left;
+  letter-spacing: 0.01px;
+  z-index: 10;
+  margin-left: 300px;
+  position: relative;
+}
+
+.text2secondline {
+  margin-top: -8px;
+}
+
+.firstcheck {
+  text-align: center;
+  margin-top: -10px;
+  z-index: 11;
+  font-size: 1.375rem;
+}
+
+.firstcheck2 {
+  font-family: "PFDinDisplayProBoldItal";
+  font-size: 35px;
+  letter-spacing: 0.1px;
+  margin-bottom: 0px;
+  margin-left: -1220px;
+}
+
+.firstcheck3 {
+  font-family: "PFDinDisplayProBoldItal";
+  font-size: 35px;
+  letter-spacing: 0.1px;
+  margin-right: 615px;
+}
+
+.firstcheck4 {
+  font-size: 1.375rem;
+  letter-spacing: 0.1px;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+.firstcheck5 {
+  font-size: 22px;
+  letter-spacing: 0.1px;
+  margin-top: 25px;
+  margin-right: 10px;
+}
+
+.firstcheck6 {
+  font-family: "PFDinDisplayProBoldItal";
+  font-size: 35px;
+  letter-spacing: 0.1px;
+  margin-left: -40px;
+}
+
+.firstcheck7 {
+  font-family: "PFDinDisplayProBoldItal";
+  font-size: 35px;
+  letter-spacing: 0.1px;
+  margin-left: -1330px;
+}
+
+.firstcheck9 {
+  font-family: "PFDinDisplayProThinItal";
+  font-size: 28px;
+  letter-spacing: 0.1px;
+  margin-right: 330px;
+}
+
+.firstcheck10 {
+  font-family: "PFDinDisplayProThinItal";
+  font-size: 28px;
+  letter-spacing: 0.1px;
+  margin-left: -28px;
+}
+
+.firstcheck11 {
+  font-family: "PFDinDisplayProThinItal";
+  font-size: 28px;
+  letter-spacing: 0.1px;
+  margin-right: 220px;
+}
+
+.firstcheck12 {
+  font-family: "PFDinDisplayProThinItal";
+  font-size: 28px;
+  letter-spacing: 0.1px;
+  margin-right: 300px;
+}
+
+.firstcheck13 {
+  font-family: "PFDinDisplayProThinItal";
+  font-size: 28px;
+  letter-spacing: 0.1px;
+  margin-right: 280px;
+}
+
+.firstcheck14 {
+  font-family: "PFDinDisplayProThinItal";
+  font-size: 28px;
+  letter-spacing: 0.1px;
+  margin-right: 300px;
+}
+
+.firstcheck15 {
+  font-family: "PFDinDisplayProThinItal";
+  font-size: 28px;
+  letter-spacing: 0.1px;
+  margin-left: -25px;
+}
+
+.background img {
+  box-shadow: 0px 0px 9px 10px rgba(0, 0, 0, .3);
+  display: inline-block;
+  width: 50vw;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+#right {
+  text-align: center;
+}
+
+#left {
+  text-align: left;
+}
+
+.background {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  overflow: hidden;
+  will-change: transform;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  height: 130vh;
+  position: fixed;
+  width: 100%;
+  transform: translateY(30vh);
+  transition: all 1.2s cubic-bezier(0.22, 0.44, 0, 1);
+}
+.background:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.background:first-child {
+  background-image: url("https://www.splashdesign.com/pub/media/website/racing/images/jorge1.jpg");
+  transform: translateY(-15vh);
+}
+.background:first-child .content-wrapper {
+  transform: translateY(15vh);
+}
+.background:nth-child(2) {
+  background-image: url("https://www.splashdesign.com/pub/media/website/racing/images/ramirez1.jpg");
+}
+.background:nth-child(3) {
+  background-image: url("https://www.splashdesign.com/pub/media/website/racing/images/sharon.jpg");
+}
+.background:nth-child(4) {
+  background-image: url("https://www.splashdesign.com/pub/media/website/racing/images/jorge3.jpg");
+}
+.background:nth-child(5) {
+  background-image: url("https://www.splashdesign.com/pub/media/website/racing/images/ramirez3.jpg");
+}
+.background:nth-child(6) {
+  background-image: url("https://www.splashdesign.com/pub/media/website/racing/images/bo.jpg");
+}
+.background:nth-child(7) {
+  background-image: url("https://www.splashdesign.com/pub/media/website/racing/images/jorge2.jpg");
+}
+.background:nth-child(8) {
+  background-image: url("https://www.splashdesign.com/pub/media/website/racing/images/manzi2.jpg");
+}
+.background:nth-child(9) {
+  background-image: url("https://www.splashdesign.com/pub/media/website/racing/images/mantovani.jpg");
+}
+.background:nth-child(10) {
+  background-image: url("https://www.splashdesign.com/pub/media/website/racing/images/sasaki2.jpg");
+}
+.background:nth-child(11) {
+  background-image: url("https://www.splashdesign.com/pub/media/website/racing/images/bulega.jpg");
+}
+.background:nth-child(12) {
+  background-image: url("https://www.splashdesign.com/pub/media/website/racing/images/tatay2.jpg");
+}
+.background:nth-child(13) {
+  background-image: url("https://www.splashdesign.com/pub/media/website/racing/images/zanetti.jpg");
+}
+.background:nth-child(14) {
+  background-image: url("https://www.splashdesign.com/pub/media/website/racing/images/olibayliss.jpg");
+}
+.background:nth-child(15) {
+  background-image: url("https://www.splashdesign.com/pub/media/website/racing/images/servicetruck.jpg");
+}
+
+/* Set stacking context of slides */
+.background:nth-child(1) {
+  z-index: 15;
+}
+
+.background:nth-child(2) {
+  z-index: 14;
+}
+
+.background:nth-child(3) {
+  z-index: 13;
+}
+
+.background:nth-child(4) {
+  z-index: 12;
+}
+
+.background:nth-child(5) {
+  z-index: 11;
+}
+
+.background:nth-child(6) {
+  z-index: 10;
+}
+
+.background:nth-child(7) {
+  z-index: 9;
+}
+
+.background:nth-child(8) {
+  z-index: 8;
+}
+
+.background:nth-child(9) {
+  z-index: 7;
+}
+
+.background:nth-child(10) {
+  z-index: 6;
+}
+
+.background:nth-child(11) {
+  z-index: 5;
+}
+
+.background:nth-child(12) {
+  z-index: 4;
+}
+
+.background:nth-child(13) {
+  z-index: 3;
+}
+
+.background:nth-child(14) {
+  z-index: 2;
+}
+
+.background:nth-child(15) {
+  z-index: 1;
+}
+
+.content-wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-flow: column nowrap;
+  color: #fff;
+  transform: translateY(40vh);
+  will-change: transform;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  transition: all 1.7s cubic-bezier(0.22, 0.44, 0, 1);
+}
+.content-title {
+  font-size: 12vh;
+  line-height: 1.4;
+}
+
+.background.up-scroll {
+  transform: translate3d(0, -15vh, 0);
+}
+.background.up-scroll .content-wrapper {
+  transform: translateY(15vh);
+}
+.background.up-scroll + .background {
+  transform: translate3d(0, 30vh, 0);
+}
+.background.up-scroll + .background .content-wrapper {
+  transform: translateY(30vh);
+}
+
+.background.down-scroll {
+  transform: translate3d(0, -130vh, 0);
+}
+.background.down-scroll .content-wrapper {
+  transform: translateY(40vh);
+}
+.background.down-scroll + .background:not(.down-scroll) {
+  transform: translate3d(0, -15vh, 0);
+}
+.background.down-scroll + .background:not(.down-scroll) .content-wrapper {
+  transform: translateY(15vh);
+}
