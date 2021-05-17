@@ -204,7 +204,7 @@ p {
   will-change: transform;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
-  height: 130vh;
+  height: 100vh;
   position: fixed;
   width: 100%;
   transform: translateY(30vh);
