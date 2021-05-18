@@ -1,4 +1,4 @@
-@font-face { font-family: PFDinDisplayProThin; src: url('https://jampajasy.github.io/heatedgearwebpage/fonts/PFDinDisplayPro-Thin.otf'); } 
+n-@font-face { font-family: PFDinDisplayProThin; src: url('https://jampajasy.github.io/heatedgearwebpage/fonts/PFDinDisplayPro-Thin.otf'); } 
 @font-face { font-family: PFDinDisplayProBold; src: url('https://jampajasy.github.io/heatedgearwebpage/fonts/PFDinDisplayPro-Bold.otf'); } 
 @font-face { font-family: PFDinDisplayProReg; src: url('https://jampajasy.github.io/heatedgearwebpage/fonts/PFDinDisplayPro-Reg.otf'); } 
 @font-face { font-family: PFDinDisplayProBoldItal; src: url('https://jampajasy.github.io/heatedgearwebpage/fonts/PFDinDisplayPro-BoldItal.otf'); }
@@ -53,6 +53,7 @@ p {
   position: absolute;
   margin-left: -50vw;
   left: 50%;
+  margin-top: -100px;
 }
 
 /*.container {
@@ -229,7 +230,7 @@ p {
   position: fixed;
   width: 100%;
   transform: translateY(30vh);
-  transition: all 1.2s cubic-bezier(0.22, 0.44, 0, 1);
+  transition: all 1.2s cubic-bezier(0.22, 0.44, 0, 1);/* z-index: 999999999; */
 }
 .background:before {
   content: "";
@@ -378,10 +379,10 @@ p {
 }
 
 .background.up-scroll {
-  transform: translate3d(0, 0vh, 0);
+  transform: translate3d(0, -10vh, 0);
 }
 .background.up-scroll .content-wrapper {
-  transform: translateY(0vh);
+  transform: translateY(-10vh);
 }
 .background.up-scroll + .background {
   transform: translate3d(0, 30vh, 0);
@@ -397,10 +398,10 @@ p {
   transform: translateY(40vh);
 }
 .background.down-scroll + .background:not(.down-scroll) {
-  transform: translate3d(0, 0vh, 0);
+  transform: translate3d(0, -10vh, 0);
 }
 .background.down-scroll + .background:not(.down-scroll) .content-wrapper {
-  transform: translateY(0vh);
+  transform: translateY(-1vh);
 }
 
 /*.footer {
