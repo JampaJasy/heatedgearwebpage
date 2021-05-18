@@ -361,7 +361,7 @@ p {
 }*/
 
 .content-wrapper {
-  height: 100vh;
+  height: 110vh;
   display: flex;
   justify-content: center;
   text-align: center;
