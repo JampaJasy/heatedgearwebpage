@@ -23969,7 +23969,7 @@ header .header {
 }
 
 header .header ._left {
-  background: url("../images/macna-logo.svg") no-repeat top left;
+  background: url("https://www.macna.com/themes/macna/images/macna-logo.svg") no-repeat top left;
   height: 160px;
   position: absolute;
   width: 100%;
