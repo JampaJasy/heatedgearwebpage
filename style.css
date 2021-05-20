@@ -241,6 +241,7 @@ p {
   width: 100%;
   transform: translateY(30vh);
   transition: all 1.2s cubic-bezier(0.22, 0.44, 0, 1);/* z-index: 999999999; */
+  margin-top: -15vh;
 }
 .background:before {
   content: "";
